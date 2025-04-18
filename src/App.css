@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.side-bar {
+  list-style: none;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #00001b; /* Black */
+  border-right: 1px solid rgba(255, 255, 255, 0.514);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 20px 20px 20px 20px;
+  margin: auto;
+}
+
+.side-bar ul {
+  padding-left: 0px;
+}
+
+.side-bar li {
+  padding: 6px 8px 6px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  text-align: left;
+}
+
+.side-bar img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 50px;
+}
+
+.home-screen {
+  margin-left: 200px;
+  text-align: center;
+}
+
+.home-screen img {
+  width: 50%;
+}
+
+.create-view {
+  margin-left: 200px;
+}
+
+.detail-view {
+  margin-left: 200px;
+}
+
+.enrolled-students {
+  margin-left: 200px;
+}

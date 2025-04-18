@@ -1,0 +1,100 @@
+label,
+input {
+  font-size: 20px;
+  float: left;
+  clear: none;
+  display: block;
+}
+
+
+select {
+  float: left;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 20px;
+  width: max-content;
+}
+
+
+input[type="radio"],
+input.radio {
+  height: 25px;
+}
+
+input[type="text"] {
+  margin-top: 10px;
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding-left: 10px;
+}
+
+input[type="text"]:focus, select:focus {
+  outline: none;
+  border: 1px solid #c39a1c;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #c39a1c;
+  color: white;
+  transition: border-color 0.25s;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover, .unenroll:hover {
+  border: 1px solid #1a1a1a;
+}
+
+.houses {
+  display: block;
+  background-color: #1a1a1a;
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 8px
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.unenroll {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #c32d1c;
+    padding: 10px;
+}
+
+.current-info {
+    width: max-content;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #c3991c6f;
+    border-radius: 8px;
+    padding: 20px;
+}
